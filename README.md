@@ -9,7 +9,7 @@ Webhooks can be configured here: https://www.workmarket.com/mmw/integration/webh
 |:----------------------|-------------------------------------------------------------------------|
 | Description          | Upload new files into a Dropbox folder rootFolder/[assignmentId]/[fileName].  **Note**: you must set up API access for your Dropbox account and get an access token. See here: https://www.dropbox.com/developers |
 | Event        | Attachment Added | 
-| URL          | https://api-content.dropbox.com/1/files_put/auto/${client_name}/${assignment_id}/${file_name} | 
+| URL          | https:///content.dropboxapi.com/1/files_put/auto/${client_name}/${assignment_id}/${file_name} | 
 | Method | PUT |
 | Headers | Authorization: Bearer [YOUR_DROPBOX_TOKEN] <br> Content-type: application/octet-stream |
 | Body | ${file_data_binary} |
